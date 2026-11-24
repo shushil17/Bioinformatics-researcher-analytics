@@ -1,0 +1,11 @@
+boto3
+google-genai
+python-dotenv
+requests
+pandas
+scipy
+pydeseq2
+tabulate
+streamlit
+plotly
+python-pptx

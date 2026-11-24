@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.csv
+!runs/DEMO-himes2014-dexamethasone/GSE52778_DE_Dexamethasone_vs_Untreated.csv
+!runs/DEMO-himes2014-bedrock-nova/GSE52778_DE_Dexamethasone_vs_Untreated.csv
+
+# Cached downloads (re-fetched automatically from Europe PMC / NCBI)
+data/
+
+# Agent run outputs
+runs/
+
+# Local tooling / OS
+.claude/
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+~$*.pptx
